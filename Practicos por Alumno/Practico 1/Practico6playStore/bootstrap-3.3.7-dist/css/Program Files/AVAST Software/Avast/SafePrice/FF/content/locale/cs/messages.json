@@ -1,0 +1,92 @@
+{
+  "safeShopBestTitleCheaperFound": {
+    "message": "Nalezeny nižší ceny!"
+  },
+  "safeShopBestTitleBestHere": {
+    "message": "Nejlepší nabídka zde!"
+  },
+  "safeShopBestButtonSave": {
+    "message": "Ušetřit %s %s na %s"
+  },
+  "safeShopBestButtonNextOffer": {
+    "message": "Další nabídka: %s na %s"
+  },
+  "safeShopOffers": {
+    "message": "%s nabídek od %s"
+  },
+  "sasShippingLabel": {
+    "message": "Poštovné a balné od"
+  },
+  "sasHintBestOffer": {
+    "message": "Nejlepší nabídka"
+  },
+  "sasHintBestOfferDesc": {
+    "message": "Přejít rovnou na nejlepší cenu pro tento produkt."
+  },
+  "sasHintOtherOffers": {
+    "message": "Porovnat ceny"
+  },
+  "sasHintOtherOffersDesc": {
+    "message": "Zobrazit další porovnatelné nabídky"
+  },
+  "sasHintSettings": {
+    "message": "Nastavení"
+  },
+  "sasHintSettingsDesc": {
+    "message": "Zde můžete opravit svá nastavení"
+  },
+  "sasPromoNewBadge": {
+    "message": "Novinka"
+  },
+  "sasProductName": {
+    "message": "SafePrice"
+  },
+  "sasPromoDescription": {
+    "message": "SafePrice najde nejlepší nabídku pro produkt, který hledáte. Zjistěte ceny, porovnejte obchody, přečtěte si hodnocení zákazníků, ověřte reputaci obchodníka, pusťte si videa o produktu nebo získejte slevové kupóny - a to vše ve Vašem prohlížeči."
+  },
+  "sasPromoAction": {
+    "message": "To zní dobře, zavřít tuto zprávu"
+  },
+  "sasPromoOptout": {
+    "message": "Zakázat SafePrice"
+  },
+  "sasOptionsNeverShowOnSite": {
+    "message": "Nezobrazovat kupóny na %s"
+  },
+  "sasOptionsDisableOnSite": {
+    "message": "Zakázat SafePrice na 24 hodin pro %s"
+  },
+  "sasOptionsDisableAll": {
+    "message": "Zakázat SafePrice na 24 hodin pro všechny stránky"
+  },
+  "safeShopCoupons": {
+    "message": "%s kupónů"
+  },
+  "sasHintCoupons": {
+    "message": "Prohlédnout kupóny"
+  },
+  "sasHintCouponsDesc": {
+    "message": "Prohlédnout kupóny a ušetřit"
+  },
+  "sasCouponsTitle": {
+    "message": "Je k dispozici %s kupónů!"
+  },
+  "sasCouponsSaving": {
+    "message": "Ušetřit až %s"
+  },
+  "sasCouponCodeTitle": {
+    "message": "Kód kupónu"
+  },
+  "sasClickToCopy": {
+    "message": "Klikněte pro zkopírování"
+  },
+  "sasCouponInstructionsTitle": {
+    "message": "Návod na použití kupónu"
+  },
+  "sasNoCouponCode": {
+    "message": "Žádný kód není potřeba"
+  },
+  "sasCouponCodeCopied": {
+    "message": "Kód byl zkopírován do schránky."
+  }
+}

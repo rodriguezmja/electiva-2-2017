@@ -1,0 +1,92 @@
+{
+  "safeShopBestTitleCheaperFound": {
+    "message": "Открити са по-ниски цени!"
+  },
+  "safeShopBestTitleBestHere": {
+    "message": "Най-добра оферта!"
+  },
+  "safeShopBestButtonSave": {
+    "message": "Спести %s %s в %s"
+  },
+  "safeShopBestButtonNextOffer": {
+    "message": "Следваща оферта %s в %s"
+  },
+  "safeShopOffers": {
+    "message": "%s оферти от %s"
+  },
+  "sasShippingLabel": {
+    "message": "Доставка от"
+  },
+  "sasHintBestOffer": {
+    "message": "Най-добра оферта"
+  },
+  "sasHintBestOfferDesc": {
+    "message": "Отивай направо на най-добрата оферта за продукта."
+  },
+  "sasHintOtherOffers": {
+    "message": "Сравни цените"
+  },
+  "sasHintOtherOffersDesc": {
+    "message": "Виж други подобни оферти"
+  },
+  "sasHintSettings": {
+    "message": "Настройки"
+  },
+  "sasHintSettingsDesc": {
+    "message": "Персонализирай настройките оттук"
+  },
+  "sasPromoNewBadge": {
+    "message": "Нова"
+  },
+  "sasProductName": {
+    "message": "SafePrice"
+  },
+  "sasPromoDescription": {
+    "message": "SafePrice намира най-добрите оферти за желания продукт. Проверете цени, сравнете магазини, четете отзиви, проверете репутацията на продавача, гледайте видео за продукта и получете купони направо във вашия браузър."
+  },
+  "sasPromoAction": {
+    "message": "Звучи добре, затвори съобщението!"
+  },
+  "sasPromoOptout": {
+    "message": "Изключи СигурнаЦена"
+  },
+  "sasOptionsNeverShowOnSite": {
+    "message": "Не показвай купони за %s"
+  },
+  "sasOptionsDisableOnSite": {
+    "message": "Изключи SafePrice в %s за 24 часа"
+  },
+  "sasOptionsDisableAll": {
+    "message": "Изключи SafePrice навсякъде за 24 часа"
+  },
+  "safeShopCoupons": {
+    "message": "%s купони"
+  },
+  "sasHintCoupons": {
+    "message": "Покажи купоните"
+  },
+  "sasHintCouponsDesc": {
+    "message": "Покажи купоните & запази"
+  },
+  "sasCouponsTitle": {
+    "message": "Налични са %s купони!"
+  },
+  "sasCouponsSaving": {
+    "message": "Запази до %s"
+  },
+  "sasCouponCodeTitle": {
+    "message": "Код на купона"
+  },
+  "sasClickToCopy": {
+    "message": "Кликни, за да копираш"
+  },
+  "sasCouponInstructionsTitle": {
+    "message": "Инструкции за ползване на купона"
+  },
+  "sasNoCouponCode": {
+    "message": "Не е нужен код"
+  },
+  "sasCouponCodeCopied": {
+    "message": "Кодът е копиран."
+  }
+}

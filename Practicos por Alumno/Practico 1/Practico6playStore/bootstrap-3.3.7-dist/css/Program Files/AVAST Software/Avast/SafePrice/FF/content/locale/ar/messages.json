@@ -1,0 +1,92 @@
+{
+  "safeShopBestTitleCheaperFound": {
+    "message": "تم إيجاد أسعار أقل!"
+  },
+  "safeShopBestTitleBestHere": {
+    "message": "أفضل عرض موجود هنا!"
+  },
+  "safeShopBestButtonSave": {
+    "message": "وفر  %s %s على %s"
+  },
+  "safeShopBestButtonNextOffer": {
+    "message": "العرض التالي  %s  على  %s"
+  },
+  "safeShopOffers": {
+    "message": "%s العروض تبدأ  %s"
+  },
+  "sasShippingLabel": {
+    "message": "الشحن والتسليم من"
+  },
+  "sasHintBestOffer": {
+    "message": "أفضل عرض"
+  },
+  "sasHintBestOfferDesc": {
+    "message": "انتقل مباشرة إلى أفضل سعر لهذا المنتج."
+  },
+  "sasHintOtherOffers": {
+    "message": "مقارنة الأسعار"
+  },
+  "sasHintOtherOffersDesc": {
+    "message": "الاطلاع على العروض الأخرى المماثلة"
+  },
+  "sasHintSettings": {
+    "message": "الإعدادات"
+  },
+  "sasHintSettingsDesc": {
+    "message": "تخصيص الإعدادات الخاصة بك هنا"
+  },
+  "sasPromoNewBadge": {
+    "message": "جديد"
+  },
+  "sasProductName": {
+    "message": "السعر الآمن"
+  },
+  "sasPromoDescription": {
+    "message": "يجد السعر الآمن أفضل العروض للمنتج الذي تطلبه. يقوم بالتحقق و مقارنة الأسعار في المحلات التجارية، و قراءة استعراضات العملاء، والتحقق من سمعة متاجر التجزئة، و مشاهدة أشرطة الفيديو الخاصة بالمنتج، والحصول على القسائم الصحيحة لمتصفح الويب الخاص بك."
+  },
+  "sasPromoAction": {
+    "message": "يبدو جيداً، أغلق هذه الرسالة!"
+  },
+  "sasPromoOptout": {
+    "message": "تعطيل السعر الآمن"
+  },
+  "sasOptionsNeverShowOnSite": {
+    "message": "لا تظهر القسائم أبداً على %s"
+  },
+  "sasOptionsDisableOnSite": {
+    "message": "تعطيل السعر الآمن على %s لمدة 24 ساعة"
+  },
+  "sasOptionsDisableAll": {
+    "message": "تعطيل السعر الآمن على جميع المواقع لمدة 24 ساعة"
+  },
+  "safeShopCoupons": {
+    "message": "%s قسائم"
+  },
+  "sasHintCoupons": {
+    "message": "عرض القسائم"
+  },
+  "sasHintCouponsDesc": {
+    "message": "عرض القسائم و حفظ"
+  },
+  "sasCouponsTitle": {
+    "message": "%s  قسائم متوفرة!"
+  },
+  "sasCouponsSaving": {
+    "message": "وفر ما يصل إلى %s"
+  },
+  "sasCouponCodeTitle": {
+    "message": "رمز القسيمة"
+  },
+  "sasClickToCopy": {
+    "message": "انقر للنسخ"
+  },
+  "sasCouponInstructionsTitle": {
+    "message": "تعليمات تخليص القسيمة"
+  },
+  "sasNoCouponCode": {
+    "message": "لا يتطلب رمز"
+  },
+  "sasCouponCodeCopied": {
+    "message": "نسخ الرمز إلى الحافظة."
+  }
+}
