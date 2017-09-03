@@ -1,0 +1,102 @@
+body{
+	background-image: url("img/trama-base.png");
+	background-repeat: all;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+        margin: 0px;
+	height: 72px;
+	padding: 10px;
+	z-index: 1;
+	color: rgb(255, 255, 255);
+}
+
+li{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+}
+
+.titulo{
+    
+	height: 72px;
+	width: 100%;
+	opacity: 0.55;
+        color: white;
+	background-color: black;
+	position: absolute;
+	z-index: 2;
+}
+
+.categorias{
+	z-index: 2;
+	/*width: 15%;*/
+	height: 100px;
+	float: left;
+	opacity: 0.5;
+	background-color: black;
+}
+
+.filtros2{
+	height: auto;
+	float: right;
+}
+.filtros{
+    position: relative;
+	height: auto;
+	float: right;
+}
+
+.item{
+    margin: 4%;
+    text-align: center;
+    border-radius: 5%;
+    background: grey;
+}
+
+.glyphicon, .glyphicon-resize-full, .glyphicon-resize-edit, .glyphicon-resize-trash{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+}
+
+label{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.imagen {
+    margin: auto;
+    margin-top: 15px;
+    position: absolute;
+    width: 70%;
+    height: 400px;
+        -webkit-filter:blur(5px);
+
+}
+#img{
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 5%;
+    width: 280px;
+    z-index: 3;
+    height: 280px;
+    position: relative;
+}
+
+#img2{
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+    width: 70%;
+    z-index: 3;
+    height: 400px;
+}
+
+#precio{
+    width: 100%;
+    font-size: 20px;
+}
