@@ -1,0 +1,92 @@
+{
+  "safeShopBestTitleCheaperFound": {
+    "message": "S'han trobat ofertes!"
+  },
+  "safeShopBestTitleBestHere": {
+    "message": "Aquesta és la millor oferta!"
+  },
+  "safeShopBestButtonSave": {
+    "message": "Estalvieu %s %s a %s"
+  },
+  "safeShopBestButtonNextOffer": {
+    "message": "Següent oferta %s a %s"
+  },
+  "safeShopOffers": {
+    "message": "%s ofertes des de %s"
+  },
+  "sasShippingLabel": {
+    "message": "Enviament des de"
+  },
+  "sasHintBestOffer": {
+    "message": "Millor oferta"
+  },
+  "sasHintBestOfferDesc": {
+    "message": "Vés directament al millor preu per a aquest producte."
+  },
+  "sasHintOtherOffers": {
+    "message": "Compara els preus"
+  },
+  "sasHintOtherOffersDesc": {
+    "message": "Mostra altres ofertes"
+  },
+  "sasHintSettings": {
+    "message": "Configuració"
+  },
+  "sasHintSettingsDesc": {
+    "message": "Configureu les vostres preferències aquí"
+  },
+  "sasPromoNewBadge": {
+    "message": "Nou"
+  },
+  "sasProductName": {
+    "message": "SafePrice"
+  },
+  "sasPromoDescription": {
+    "message": "El SafePrice us ajuda a trobar els millors preus dels productes que cerqueu: Compara preus, botigues, reputació del venedor i facilita cupons de descompte, vídeos del producte o les opinions dels usuaris; tot des del vostre navegador."
+  },
+  "sasPromoAction": {
+    "message": "Sona bé; tanca aquest missatge"
+  },
+  "sasPromoOptout": {
+    "message": "Inhabilita el SafePrice"
+  },
+  "sasOptionsNeverShowOnSite": {
+    "message": "No mostris mai cupons a %s"
+  },
+  "sasOptionsDisableOnSite": {
+    "message": "Inhabilita el SafePrice a %s durant 24 hores"
+  },
+  "sasOptionsDisableAll": {
+    "message": "Inhabilita el SafePrice a tots els llocs web durant 24 hores"
+  },
+  "safeShopCoupons": {
+    "message": "%s cupons"
+  },
+  "sasHintCoupons": {
+    "message": "Mostra els cupons"
+  },
+  "sasHintCouponsDesc": {
+    "message": "Mostra els cupons d'estalvi"
+  },
+  "sasCouponsTitle": {
+    "message": "%s cupons disponibles!"
+  },
+  "sasCouponsSaving": {
+    "message": "Estalvieu fins a %s"
+  },
+  "sasCouponCodeTitle": {
+    "message": "Codi promocional"
+  },
+  "sasClickToCopy": {
+    "message": "Clic per copiar"
+  },
+  "sasCouponInstructionsTitle": {
+    "message": "Instruccions per utilitzar el cupó"
+  },
+  "sasNoCouponCode": {
+    "message": "No es requereix cap codi"
+  },
+  "sasCouponCodeCopied": {
+    "message": "S'ha copiat el codi al porta-retalls."
+  }
+}

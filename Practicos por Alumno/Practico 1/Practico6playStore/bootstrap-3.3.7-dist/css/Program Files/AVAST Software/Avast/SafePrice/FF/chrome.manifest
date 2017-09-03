@@ -1,0 +1,2 @@
+content sp content/  contentaccessible=yes
+locale sp {{LOCALE}} locale/{{LOCALE}}/
