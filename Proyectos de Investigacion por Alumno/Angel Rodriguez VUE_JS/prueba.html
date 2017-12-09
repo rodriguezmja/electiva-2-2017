@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Vue Example</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="jumbotron">VueJs</h1>
+
+        <!-- Desde aqui empieza la parte donde introducimos el codigo que trabajremos con VUE-->
+        <div id="app">
+          <table class="table table-stripped">
+            <thead>
+              <tr>
+                <th style="width:40px;"></th>
+                <th>Descripción</th>
+                <th style="width:200px;">Monto</th>
+                <th style="width:100px;">¿Cancelado?<th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td>
+                  <input type="text" class="form-control" v-model="newEntry.name" />
+                </td>
+                <td>
+                  <input type="text" class="form-control" v-model="newEntry.amount" />
+                </td>
+                <td>
+
+                  <button v-on:click="add()" type="button" class="btn btn-success btn-block">Agregar</button>
+                </td>
+              </tr>
+              <tr v-if="items.length === 0">
+                <td colspan="4" class="text-center">
+                  No hay registros por mostrar
+                </td>
+              </tr>
+              <tr v-for="item, index in items">
+                <td>
+                  <button 
+                    @click="remove(index)"
+                    type="button" class="btn btn-danger btn-xs">
+                    <i class="glyphicon glyphicon-trash"></i>
+                  </button>
+                </td>
+                <td>{{ item.name }}</td>
+                <td>{{ item.amount.toFixed(2) }}</td>
+                <td class="text-center" :title="item.paid ? 'Si' : 'No'">
+                  <button
+                    @click="changeToPaid(item)"
+                    class="btn btn-default btn-sm"
+                    :class="{ 'btn-success': item.paid  }">
+
+                      <i v-if="item.paid" class="glyphicon glyphicon-ok"></i>
+                      <i v-if="!item.paid" class="glyphicon glyphicon-remove"></i>
+
+                    </button>
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="text-danger">
+                <td></td>
+                <td class="text-right">Por pagar</td>
+                <td>{{ totalAmount(0) }}</td>
+                <td></td>
+              </tr>
+              <tr class="text-success">
+                <td></td>
+                <td class="text-right">Pagado</td>
+                <td>{{ totalAmount(1) }}</td>
+                <td></td>
+              </tr>
+              <tr class="text-info">
+                <td></td>
+                <td class="text-right">Total</td>
+                <td>{{ totalAmount(2) }}</td>
+                <td></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+ <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script>
+    var app = new Vue({
+      el: '#app', // Elemento
+      data: { // Parametros
+        newEntry: {
+          name: '',
+          amount: 0
+        },
+        items: [{
+            name: 'Servicios',
+            amount: 200,
+            paid: false
+          },
+          {
+            name: 'Hosting de Anexsoft',
+            amount: 90,
+            paid: true
+          },
+        ]
+      },
+      methods: {
+        remove: function(index) {
+          this.items.splice(index, 1);
+        },
+        // Ecmascript 6 syntax
+        add() {
+          this.items.push({
+            name: this.newEntry.name,
+            amount: parseFloat(this.newEntry.amount),
+            paid: false
+          });
+
+          this.newEntry.name = '';
+          this.newEntry.amount = 0;
+        },
+        changeToPaid(item) {
+          item.paid = !(item.paid);
+        },
+        totalAmount(t){
+            var total = this.items.reduce(function(a, b) {
+              switch(t) {
+                case 0: return a + (!b.paid ? b.amount : 0);
+                case 1: return a + (b.paid ? b.amount : 0);
+                case 2: return a + b.amount;
+              }
+            }, 0);
+
+            return total.toFixed(2);
+        }
+      }
+    });
+  </script>
+</body>
+</html>

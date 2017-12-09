@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pagina de prueba</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	
+	<div id="app">
+  	
+
+		<ol>
+			<li v-for="tarea in tareas">{{ tarea.nombre }}</li>
+		</ol>
+
+	</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+	var vm = new Vue({
+		el: "#app",
+		data: {
+			tareas: [
+			{id: 1, nombre:'primera Tarea'},
+			{id: 2, nombre:'segunda Tarea'},
+			{id: 3, nombre:'tercera Tarea'}
+			]
+		}
+	
+	})
+
+</script>
+
+</html>
+
+
